@@ -13,7 +13,7 @@
 		C63DF73E26E2247300E01163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63DF73D26E2247300E01163 /* Assets.xcassets */; };
 		C63DF74126E2247300E01163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63DF73F26E2247300E01163 /* LaunchScreen.storyboard */; };
 		C63DF74926E225B200E01163 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DF74826E225B200E01163 /* ToDoListTableViewController.swift */; };
-		C63DF74B26E2266000E01163 /* Deed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DF74A26E2266000E01163 /* Deed.swift */; };
+		C63DF74B26E2266000E01163 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DF74A26E2266000E01163 /* Task.swift */; };
 		C63DF74F26E2272C00E01163 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DF74E26E2272C00E01163 /* StorageManager.swift */; };
 		C63DF75126E22E3100E01163 /* NewDeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63DF75026E22E3100E01163 /* NewDeedViewController.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		C63DF74026E2247300E01163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C63DF74226E2247300E01163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C63DF74826E225B200E01163 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
-		C63DF74A26E2266000E01163 /* Deed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deed.swift; sourceTree = "<group>"; };
+		C63DF74A26E2266000E01163 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C63DF74E26E2272C00E01163 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		C63DF75026E22E3100E01163 /* NewDeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +111,7 @@
 		C63DF75626E256DF00E01163 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C63DF74A26E2266000E01163 /* Deed.swift */,
+				C63DF74A26E2266000E01163 /* Task.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,7 +199,7 @@
 				C63DF74F26E2272C00E01163 /* StorageManager.swift in Sources */,
 				C63DF75126E22E3100E01163 /* NewDeedViewController.swift in Sources */,
 				C63DF74926E225B200E01163 /* ToDoListTableViewController.swift in Sources */,
-				C63DF74B26E2266000E01163 /* Deed.swift in Sources */,
+				C63DF74B26E2266000E01163 /* Task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

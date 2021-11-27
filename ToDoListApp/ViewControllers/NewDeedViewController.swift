@@ -12,15 +12,14 @@ class NewDeedViewController: UIViewController {
     @IBOutlet weak var decsriptionTextField:
         UITextField!
     
-    var delegate: SaveDeedDelegate!
+    var delegate: SaveTaskDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     @IBAction func saveAction() {
-        print("HERE")
-        let deed = Deed(titl: titleTextField.text ?? " ", descript: decsriptionTextField.text ?? "" )
-        delegate.saveDeed(for: deed)
+        let task = Task(titl: titleTextField.text ?? " ", descript: decsriptionTextField.text ?? "" )
+        delegate.saveTask(for: task)
         dismiss(animated: true)
     }
     
